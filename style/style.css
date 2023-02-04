@@ -135,3 +135,55 @@ section{
 .home-btn:hover{
     transform: scale(1.1);
 }
+
+/* About Section */
+.about{
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(2, 2fr);
+    gap: 2rem;
+    padding-top: 100px;
+    transition: all .45s ease;
+}
+.about-box{
+    display: inline-block;
+    padding: 10px 30px;
+    background-color: #f32c461f;
+    color: #f32c46;
+    font-size: var(--p-font);
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+.about-text h2{
+    font-size: var(--f2-font);
+    line-height: 1.1;
+    letter-spacing: 1;
+    color: #04080f;
+    margin-bottom: 25px;
+}
+.about-text p{
+    font-size: var(--p-font);
+    color: var(--second-color);
+    max-width: 600px;
+    line-height: 1.7;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+}
+.abu-btn{
+    display:block;
+    padding: 10px 30px;
+    border: 2px solid #f32c46;
+    font-size: var(--p-font);
+    font-weight: 600;
+    background: transparent;
+    color: var(--main-color);
+    cursor: pointer;
+}
+.abu-btn:hover{
+    background-color:  #f32c46;
+    color: #ffffff;
+}
+.about-img img{
+    width: 100%;
+    height: auto;
+}
