@@ -94,10 +94,14 @@ section{
 .home h1{
     font-size: var(--big-font);
     color: #fff;
-    line-height: 1.2;
-    margin-bottom: 25px;
-    opacity: 0.6;
 } 
+.home h2{
+    font-size: var(--big-font);
+    color: #fff;
+    margin-bottom: 25px;
+    line-height: 1.2;
+    opacity: 0.6;
+}
 .home p{
     font-size: var(--p-font);
     color: #fff;
