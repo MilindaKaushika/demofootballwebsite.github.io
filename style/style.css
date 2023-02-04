@@ -7,3 +7,127 @@
     font-family: 'Poppins', sans-serif; 
     scroll-behavior: smooth;
 }
+:root{
+    --main-color: #f32c46;
+    --text-color: #302e29;
+    --second-color: #858585;
+    --bg-color: #fffbf6;
+    --big-font: 4.5rem;
+    --f2-font: 3.6rem;
+    --p-font: 1.1rem;
+}
+
+/* Menu List */
+header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    z-index: 1000;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 10%;
+    transition: all .45s ease;
+}
+.logo{
+    font-size: 30px;
+    font-weight: 700;
+    color: var(--main-color);
+}
+.logo span{
+    color: var(--bg-color);
+}
+.nevbar{
+    display: flex;
+    align-items: center;
+}
+.nevbar a{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px 20px;
+    letter-spacing: 1px;
+    color: var(--bg-color);
+    transition: all .45s ease;
+}
+.nevbar a:hover{
+    color: var(--main-color);
+}
+.nav-list{
+    display: flex;
+    align-items: center;
+}
+.nav-list .nav-btn{
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 10px 20px;
+    background-color: #f32c46;
+    font-size: var(--p-font);
+    color: var(--bg-color);
+    letter-spacing: 1px;
+    transition: all .45s ease;
+    cursor: pointer;
+}
+#menu-icon{
+    font-size: 35px;
+    z-index: 10001;
+    color: var(--bg-color);
+    cursor: pointer;
+    display: none;
+}
+
+/* Home Section */
+section{
+    padding: 90px 10%;
+}
+.home{
+    width: 100%;
+    height: 100vh;
+    background: radial-gradient(#f32c46, #000000);
+    align-items: center;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+.home h1{
+    font-size: var(--big-font);
+    color: #fff;
+    line-height: 1.2;
+    margin-bottom: 25px;
+    opacity: 0.6;
+} 
+.home p{
+    font-size: var(--p-font);
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+.home-image img{
+    position: absolute;
+    bottom: 0;
+    max-width: 100%;
+    width: 680px;
+    filter: drop-shadow(-10px -140px 5px rgba(0,0,0,0.5));
+    /* width: 460px; */
+    height: auto;
+    transition: 0.5s;
+}
+.home-image img:hover{
+    filter: drop-shadow(0px 0px 5px rgba(0,0,0,0.5)); 
+}
+.home-btn{
+    display: inline-block;
+    padding: 10px 30px;
+    color: var(--bg-color);
+    border: 1px solid transparent;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 30px;
+    background-color: var(--main-color);
+    cursor: pointer;
+}
+.home-btn:hover{
+    transform: scale(1.1);
+}
