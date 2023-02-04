@@ -31,6 +31,10 @@ header{
     padding: 15px 10%;
     transition: all .45s ease;
 }
+header.sticky{
+    background-color: #5f111b;
+    padding: 10px 10%;
+}
 .logo{
     font-size: 30px;
     font-weight: 700;
