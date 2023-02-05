@@ -194,15 +194,15 @@ section{
 /* Responsive Page */
 @media (max-width: 1290px){
     section{
-        padding: 80px 5%;
+        padding: 80px 8%;
         transition: .2s;
     }
     header{
-        padding: 10px 5%;
+        padding: 10px 8%;
         transition: .2s;
     }
     header.sticky{
-        padding: 8px 5%;
+        padding: 10px 8%;
         transition: .2s;  
     }
     :root{
@@ -238,6 +238,10 @@ section{
     header{
         padding: 10px 5%;
         transition: .2s;
+    }
+    header.sticky{
+        padding: 10px 5%;
+        transition: .2s;  
     }
 }
 
