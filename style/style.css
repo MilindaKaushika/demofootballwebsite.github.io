@@ -269,6 +269,10 @@ section{
         padding: 10px 5%;
         transition: .2s;  
     }
+    .social{
+        bottom: 40px;
+        left: 5%;
+    }
 }
 
 
@@ -336,6 +340,6 @@ section{
         transition: .2s;  
     }
     .social{
-        bottom: 40px;
+        left: 5%;
     }
 }
