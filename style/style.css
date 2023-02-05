@@ -73,6 +73,32 @@ header.sticky{
     transition: all .45s ease;
     cursor: pointer;
 }
+.social{
+    position: absolute;
+    left: 10%;
+    bottom: 50px;
+}
+.social i{
+    width: 38px;
+    height: 38px;
+    background: #f32c46;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 19px;
+    padding: 10px;
+    margin-right: 15px;
+    transition: all .45s ease;
+}
+.social i:hover{
+    background-color: #fff;
+    border: none;  
+    outline: none;
+    color: #000000;
+    transform: scale(1.01) translateY(-4px);
+}
 #menu-icon{
     font-size: 35px;
     z-index: 10001;
@@ -271,6 +297,7 @@ section{
         margin: 0.5rem;
         padding: 0.8rem;
         transition: all .45s ease;
+        border-left: 2px solid var(--main-color);
         color: var(--bg-color);
     }
     .nevbar a:hover{
@@ -307,5 +334,8 @@ section{
         --big-font: 3rem;
         --f2-font: 2rem;
         transition: .2s;  
+    }
+    .social{
+        bottom: 40px;
     }
 }
