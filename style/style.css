@@ -254,7 +254,7 @@ section{
         top: -700px;
         left: 0;
         right: 0;
-        background:#f32c46;
+        background: #04080f;
         flex-direction: column;
         align-items: flex-start;
         padding: 10px 40px;
@@ -270,7 +270,7 @@ section{
         color: var(--bg-color);
     }
     .nevbar a:hover{
-        color: #04080f;
+        color: var(--main-color);
     }
     .nevbar.open{
        top: 100%;
