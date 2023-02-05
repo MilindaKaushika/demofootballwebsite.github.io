@@ -217,6 +217,72 @@ section{
     height: auto;
 }
 
+/* Team Section */
+.team{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+    gap: 2rem;
+    align-items: center;
+}
+.col-content{
+    position: relative;
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 10px;
+    background: gray;
+    cursor: pointer;
+    transition: all 0.8s;
+}
+.box1{
+    background: linear-gradient(to bottom,rgba(0,0,0,0) 0%, rgba(0,0,0,0.3) 50%,  rgba(0,0,0,0.7) 75%,  #000 100%), url(../images/team-1.jpg);
+    background-position: top;
+}
+.box2{
+    background: linear-gradient(to bottom,rgba(0,0,0,0) 0%, rgba(0,0,0,0.3) 50%,  rgba(0,0,0,0.7) 75%,  #000 100%), url(../images/team-2.jpg);
+    background-position: top;
+}
+.box3{
+    background: linear-gradient(to bottom,rgba(0,0,0,0) 0%, rgba(0,0,0,0.3) 50%,  rgba(0,0,0,0.7) 75%,  #000 100%), url(../images/team-3.jpg);
+    background-position: top;
+}
+.box4{
+    background: linear-gradient(to bottom,rgba(0,0,0,0) 0%, rgba(0,0,0,0.3) 50%,  rgba(0,0,0,0.7) 75%,  #000 100%), url(../images/team-1.jpg);
+    background-position: top;
+}
+.col-content  h5{
+    position: absolute;
+    font-size: 22px;
+    font-weight: 500;
+    color: #fff;
+    left: 20px;
+    bottom: 60px;
+}
+.col-content  p{
+    position: absolute;
+    font-size: 20px;
+    font-weight: 500;
+    color: #F32C46;
+    left: 20px;
+    bottom: 100px;
+}
+.col-content:hover{
+    transform: translateY(-10px);
+}
+.main-text h2{
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 1.1;
+    text-transform: uppercase;
+    color: var(--text-color);
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.main-text span{
+    color: var(--main-color);
+}
+
 /* Responsive Page */
 @media (max-width: 1290px){
     section{
