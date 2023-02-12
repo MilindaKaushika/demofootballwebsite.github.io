@@ -235,8 +235,8 @@ section{
     transition: all 0.8s;
 }
 .box1{
-    background: linear-gradient(to bottom,rgba(0,0,0,0) 0%, rgba(0,0,0,0.3) 50%,  rgba(0,0,0,0.7) 75%,  #000 100%), url(../images/team-1.jpg);
-    background-position: top;
+    background: linear-gradient(to bottom,rgba(0,0,0,0) 0%, rgba(0,0,0,0.3) 50%,  rgba(0,0,0,0.7) 75%,  #000 100%), url(../images/coach-1.jpg);
+    background-position: top right;
 }
 .box2{
     background: linear-gradient(to bottom,rgba(0,0,0,0) 0%, rgba(0,0,0,0.3) 50%,  rgba(0,0,0,0.7) 75%,  #000 100%), url(../images/team-2.jpg);
@@ -252,6 +252,7 @@ section{
 }
 .col-content  h5{
     position: absolute;
+    text-transform: uppercase;
     font-size: 22px;
     font-weight: 500;
     color: #fff;
@@ -260,6 +261,7 @@ section{
 }
 .col-content  p{
     position: absolute;
+    text-transform: uppercase;
     font-size: 20px;
     font-weight: 500;
     color: #F32C46;
@@ -324,7 +326,7 @@ section{
         transition: .2s;  
     }
     section{
-        padding: 80px 5%;
+        padding: 50px 5%;
         transition: .2s;
     }
     header{
