@@ -319,7 +319,6 @@ section{
 .main-button-tournament .tournament-btn:hover{
     transform: scale(1.1);
 }
-
 .tournament-list{
     background-image: linear-gradient(130deg, rgba(199,1,1) 60%, rgba(184,0,0) 0%);
 }
@@ -327,14 +326,12 @@ section{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, auto));
     gap: 2rem;
-    background-color: transparent;
-    
+    background-color: transparent;  
 }
 .tournament-content{
     padding: 60px 45px;
     text-align: center;
     background: white;
-    cursor: pointer;
     box-shadow: rgba(0,0,0,0.04) 0px 3px 5px;
     border-bottom: 2px solid transparent;
 }
@@ -345,9 +342,25 @@ section{
 .tournament-content h5{
     font-size: 24px;
 }
-
-
-
+.click-link{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-right: 25px;
+    justify-content: center;
+    cursor: pointer;
+}
+.click-link h4{
+    font-size: 16px;
+    font-weight: 500;
+}
+.click-link i{
+    font-size: 35px;
+    font-weight: 500;
+}
+.click-link:hover{
+    color: #F32C46;
+}
 
 
 /* Responsive Page */
