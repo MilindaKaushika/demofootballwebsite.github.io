@@ -314,7 +314,7 @@ section{
 }
 .main-button-tournament .tournament-btn{
     display:inline-block;
-    padding: 10px 20px;
+    padding: 20px 30px;
     color: 16px;
     background: var(--bg-color);
     font-weight: 600;
@@ -525,7 +525,6 @@ section{
     color: #7e7979;
     font-size: 12px;
     letter-spacing: 1px;
-    margin-bottom: 15px;
 }
 
 /* Scroll-Top */
@@ -644,6 +643,9 @@ section{
     }
     .click-link {
         margin-right: 0;
+    }
+    .footer-left p {
+        margin-bottom: 15px;
     }
 }
 
