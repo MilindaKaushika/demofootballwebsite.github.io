@@ -358,10 +358,180 @@ section{
     font-size: 35px;
     font-weight: 500;
 }
-.click-link:hover{
+.click-link h4:hover{
     color: #F32C46;
 }
 
+/* Club-list */
+.clubs-list{
+    background-color: #D3D3D3;
+    height: 50%;
+    padding: 20px 14%;
+}
+.clubs{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+    gap: 2rem;
+    align-items: center;
+    transition: all .45s ease;
+}
+.club-logos img {
+    width: 100%;
+    height: auto;
+    opacity: 0.4;
+    filter: brightness( 100% ) contrast( 100% ) saturate( 0% ) blur( 0px ) hue-rotate( 0deg );
+}
+.club-logos img:hover{
+    opacity: 1;
+}
+
+/* Football News Section */
+.football-news-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+    gap: 2rem;
+    align-items: center;
+    transition: all .45s ease;  
+}
+.row:hover{
+    transform: scale(1.02);
+}
+.row img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px; 
+}
+.row h1{
+    color: var(--text-color);
+    font-size:23px;
+    line-height: 30px;
+    margin-bottom: 15px; 
+}
+.row p{
+    color: var(--text-color);
+    font-size:16px;
+    font-weight: 500;
+    margin-bottom: 15px; 
+}
+.football-news-link{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 25px;
+    align-items: center;
+    cursor: pointer;
+}
+.football-news-link i{
+    font-size: 35px;
+    color: #F32C46;
+    font-weight: 500;
+}
+.football-news-link h4:hover{
+    color: #F32C46;
+}
+
+
+/* Contact us Section */
+.contact{
+    background: #000000;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+    gap: 2rem;
+}
+.contact-contain h4{
+    font-size:20px;
+    text-transform: uppercase;
+    margin-bottom: 1.6rem;
+    color: var(--bg-color);
+}
+.contact-contain h5{
+    font-size:15px;
+    font-weight: 500;
+    max-width: 400px;
+    margin-bottom: 15px;
+    color: #ffffff;
+}
+.contact-contain li a{
+    display: block;
+    font-size:15px;
+   font-weight: 500;
+   color:#ffffff;
+   transition: all .45s ease;
+}
+.contact-contain li{
+    margin-bottom: 16px;
+}
+.contact-contain li a:hover{
+    transform: translateX(-8px);
+    color: var(--main-color);
+}
+.icons{
+    display: flex;
+}
+.icons i{
+    font-size: 25px;
+    margin-right: 1rem;
+    color: #555;
+    transition: all .45s ease;
+}
+.icons i:hover{
+    color: var(--bg-color);
+    transform: scale(1.1) translateY(-5px);
+}
+.contact-contain form{
+    max-width: 100%;
+    width: 400px;
+    position: relative;
+}
+.contact-contain form input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding: 15px  150px 15px 30px; 
+    box-shadow: 5px 10px 30px rgb(85 85 85 / 20%);
+    outline: none;
+    border: none;
+}
+.contact-contain form input:last-child{
+    display: inline-block;
+    position: absolute;
+    outline: none;
+    border: none;
+    padding: 10px 30px;
+    font-weight: 600;
+    background: #C70101;
+    color: var(--bg-color);
+    top: 6px;
+    right: 6px;
+    cursor: pointer;
+}
+.contact-contain form input:last-child:hover{
+    transform: scale(1.01);
+}
+.last-text{
+    display: flex;
+    padding: 15px 5%;
+    align-items: center;
+    justify-content: space-between;
+    background: #04080F;
+}
+.last-text p{
+    color: #7e7979;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+/* Scroll-Top */
+.top{
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+}
+.top i{
+    font-size: 22px;
+    color: var(--bg-color);
+    padding: 14px;
+    background: var(--main-color);
+    border-radius: 10px;
+}
 
 /* Responsive Page */
 @media (max-width: 1290px){
