@@ -221,8 +221,9 @@ section{
 .team{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, auto));
-    gap: 2rem;
+    gap: 1.5rem;
     align-items: center;
+    transition: all .45s ease;
 }
 .col-content{
     position: relative;
@@ -290,7 +291,9 @@ section{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
     margin-bottom: 50px; 
+    transition: all .45s ease;
 }
 .main-text-tournament h2{
     font-weight: 700;
@@ -307,7 +310,7 @@ section{
     letter-spacing: 1.1;
     width: 100%;
     max-width: 700px;
-    margin-bottom: 4px;
+    margin-bottom: 10px;
 }
 .main-button-tournament .tournament-btn{
     display:inline-block;
@@ -341,6 +344,7 @@ section{
 }
 .tournament-content h5{
     font-size: 24px;
+    line-height: 30px;
 }
 .click-link{
     display: flex;
@@ -367,6 +371,7 @@ section{
     background-color: #D3D3D3;
     height: 50%;
     padding: 20px 14%;
+    transition: all .45s ease;
 }
 .clubs{
     display: grid;
@@ -436,6 +441,7 @@ section{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, auto));
     gap: 2rem;
+    transition: all .45s ease;
 }
 .contact-contain h4{
     font-size:20px;
@@ -447,7 +453,8 @@ section{
     font-size:15px;
     font-weight: 500;
     max-width: 400px;
-    margin-bottom: 15px;
+    margin-top: 1rem;
+    margin-bottom: 20px;
     color: #ffffff;
 }
 .contact-contain li a{
@@ -509,14 +516,16 @@ section{
 .last-text{
     display: flex;
     padding: 15px 5%;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
     background: #04080F;
 }
-.last-text p{
+.footer-left p{
     color: #7e7979;
     font-size: 12px;
     letter-spacing: 1px;
+    margin-bottom: 15px;
 }
 
 /* Scroll-Top */
@@ -536,7 +545,7 @@ section{
 /* Responsive Page */
 @media (max-width: 1290px){
     section{
-        padding: 80px 8%;
+        padding: 90px 8%;
         transition: .2s;
     }
     header{
@@ -564,6 +573,10 @@ section{
         padding: 10px 10px;
         transition: .2s;  
     }
+    .row h1 {
+        font-size: 18px;
+        transition: .2s;
+    }
 }
 
 @media (max-width: 1461px){
@@ -574,7 +587,7 @@ section{
         transition: .2s;  
     }
     section{
-        padding: 50px 5%;
+        padding: 80px 5%;
         transition: .2s;
     }
     header{
@@ -626,7 +639,12 @@ section{
     .nevbar.open{
        top: 100%;
     }
-   
+    .tournament-content {
+        padding: 30px 35px;
+    }
+    .click-link {
+        margin-right: 0;
+    }
 }
 
 @media (max-width: 820px){
